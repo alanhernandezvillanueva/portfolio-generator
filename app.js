@@ -87,7 +87,7 @@ if (!portfolioData.projects) {
       {
         type: 'input',
         name: 'link',
-        message: 'Enter the GitHub link to your project. (Required)'
+        message: 'Enter the GitHub link to your project. (Required)',
         validate: projectLinkInput => {
             if (projectLinkInput) {
               return true;
